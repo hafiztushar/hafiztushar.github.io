@@ -1,0 +1,95 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; 
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; 
+}
+
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: white;
+  color: black; 
+  background-color: #B5EAD7;
+
+}
+.intro{
+    font-family: 'Lobster', cursive;
+    
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; 
+  background-color: #B5EAD7;
+    
+}
+
+.navbar {
+    background-color: #B5EAD7;
+    border-bottom: 1px ridge;
+}
+a{
+    color: black;
+}
+
+.footer {
+  background-color: whitesmoke;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+.runner{
+    background-image: url(rsz_116.png);
+    background-size: cover;
+    height: 276px;
+    width: 325px;
+    animation: walk 2s steps(16) infinite;
+}
+@keyframes walk{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 5208px;
+    }
+}
+@keyframes forward{
+    0%{
+        transform: translateX(00px);
+        
+    }
+}
+.test{
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
